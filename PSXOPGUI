@@ -4,7 +4,6 @@ if v.ClassName == "Players" then
 return v.Name
 end
 end
-end
 local players = getplrsname()
 local plr = game[players].LocalPlayer
 coroutine.resume(coroutine.create(function()
